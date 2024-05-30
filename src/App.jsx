@@ -1,13 +1,10 @@
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import Header from './components/Header.jsx'
 
-function App() {
 
-  return (
-    <>
-     <h1>
-      Hello World!
-     </h1>
-    </>
-  )
-}
-
-export default App
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <Header />
+  </React.StrictMode>,
+)
